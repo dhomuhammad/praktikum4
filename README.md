@@ -87,7 +87,7 @@ my sql> CREATE TABLE daftar_hewan (id VARCHAR(5) NOT NULL,nama TEXT(8) NOT NULL,
 # 4. Menjadikan nim sebagai primary key
 my sql> ALTER TABLE data_pegawai ADD PRIMARY KEY(id);
 
-# 5. Mengisi table data_pegawai
+# 5. Mengisi table daftar_hewan
 my sql> INSERT INTO daftar_hewan
         VALUES ('p1', 'Puffball', 'Diane', 'Hamster', 'f');
         INSERT INTO daftar_hewan
